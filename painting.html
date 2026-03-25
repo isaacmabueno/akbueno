@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Painting — A.K.BUENO</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">A.K.BUENO</a>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="drawing.html">Drawing</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <h1>Painting Work</h1>
+    <p class="muted">Selected paintings from the portfolio.</p>
+
+    <div class="gallery" id="gallery">
+      <figure class="card"><img src="images/ada-1.jpg" alt="Ada 1" data-full="images/ada-1.jpg" /><figcaption>Ada 1 — 2022</figcaption></figure>
+      <figure class="card"><img src="images/ada-2.jpg" alt="Ada 2" data-full="images/ada-2.jpg" /><figcaption>Ada 2 — 2022</figcaption></figure>
+      <figure class="card"><img src="images/ben-alley.jpg" alt="Ben Alley" data-full="images/ben-alley.jpg" /><figcaption>Ben Alley — 2022</figcaption></figure>
+      <figure class="card"><img src="images/palmer-1.jpg" alt="Palmer 1" data-full="images/palmer-1.jpg" /><figcaption>Palmer 1 — 2022</figcaption></figure>
+      <figure class="card"><img src="images/chicago-green.jpg" alt="Chicago Green" data-full="images/chicago-green.jpg" /><figcaption>Chicago Green — 2022</figcaption></figure>
+      <figure class="card"><img src="images/baby.jpg" alt="Baby" data-full="images/baby.jpg" /><figcaption>Baby — 2021</figcaption></figure>
+      <figure class="card"><img src="images/baby-2.jpg" alt="Baby 2" data-full="images/baby-2.jpg" /><figcaption>Baby 2 — 2021</figcaption></figure>
+      <figure class="card"><img src="images/chicago-pink.jpg" alt="Chicago Pink" data-full="images/chicago-pink.jpg" /><figcaption>Chicago Pink — 2022</figcaption></figure>
+      <figure class="card"><img src="images/sara.jpg" alt="Sara" data-full="images/sara.jpg" /><figcaption>Sara — 2021</figcaption></figure>
+      <figure class="card"><img src="images/rosewood.jpg" alt="Rosewood" data-full="images/rosewood.jpg" /><figcaption>Rosewood — 2021</figcaption></figure>
+      <figure class="card"><img src="images/arwen-1.jpg" alt="Arwen" data-full="images/arwen-1.jpg" /><figcaption>Arwen — 2020</figcaption></figure>
+      <figure class="card"><img src="images/culls-1.jpg" alt="Culls" data-full="images/culls-1.jpg" /><figcaption>Culls — 2017</figcaption></figure>
+      <figure class="card"><img src="images/darnell.jpg" alt="Darnell" data-full="images/darnell.jpg" /><figcaption>Darnell — 2018</figcaption></figure>
+      <figure class="card"><img src="images/gibsons.jpg" alt="Gibsons" data-full="images/gibsons.jpg" /><figcaption>Gibsons — 2017</figcaption></figure>
+      <figure class="card"><img src="images/homan-final-real-size.jpg" alt="South Homan" data-full="images/homan-final-real-size.jpg" /><figcaption>South Homan — 2018</figcaption></figure>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> A.K.BUENO</div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="http://behance.com/akbueno" target="_blank" rel="noopener">Behance</a>
+        <a href="http://instagram.com/ayekaybueno" target="_blank" rel="noopener">Instagram</a>
+      </nav>
+    </div>
+  </footer>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Image preview">
+    <button id="lightbox-close" class="lightbox-close" aria-label="Close">✕</button>
+    <img id="lightbox-img" src="" alt="" />
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

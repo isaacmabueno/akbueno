@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — A.K.BUENO</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">A.K.BUENO</a>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="painting.html">Painting</a></li>
+          <li><a href="drawing.html">Drawing</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section contact">
+    <h1>Contact</h1>
+    <p class="muted">For work inquiries, email via the form or use the direct email link.</p>
+
+    <form id="contact-form" class="contact-form" method="POST" action="https://formspree.io/f/your-form-id">
+      <label>Name<input type="text" name="name" required /></label>
+      <label>Email<input type="email" name="_replyto" required /></label>
+      <label>Message<textarea name="message" rows="5" required></textarea></label>
+      <div class="form-actions">
+        <button type="submit" class="btn">Send</button>
+        <a class="btn hollow" href="mailto:you@akbueno.com">Email directly</a>
+      </div>
+    </form>
+
+    <section style="margin-top:24px">
+      <h2>Current Display Locations</h2>
+      <p class="muted">Ada Pharmacy — 7505 River Street, Ada, MI<br/>Pennyroyal Provisions — 3319 Blue Star Hwy, Saugatuck, MI</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> A.K.BUENO</div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="http://behance.com/akbueno" target="_blank" rel="noopener">Behance</a>
+        <a href="http://instagram.com/ayekaybueno" target="_blank" rel="noopener">Instagram</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
