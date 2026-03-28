@@ -16,7 +16,7 @@ const drawings = [
   { file: 'sherman-61222.jpg', title: 'Sherman VII', year: '2022', medium: 'Graphite on Paper', size: '18×24' },
 ]
 
-const gap = 40
+const gap = { xs: 16, sm: 24, md: 40 }
 
 export default function Drawing() {
   return (
@@ -41,11 +41,25 @@ export default function Drawing() {
         </Typography>
       </Box>
 
-      <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: `${gap}px` }}>
+      <Box
+        sx={{
+          display: 'flex',
+          flexWrap: 'wrap',
+          gap: { xs: `${gap.xs}px`, sm: `${gap.sm}px`, md: `${gap.md}px` },
+        }}
+      >
         {drawings.map((d) => (
           <Box
             key={d.file}
-            sx={{ width: `calc((100% - ${gap * 2}px) / 3)`, textAlign: 'center', mb: { xs: 2, md: 4 } }}
+            sx={{
+              width: {
+                xs: '100%',
+                sm: `calc((100% - ${gap.sm}px) / 2)`,
+                md: `calc((100% - ${gap.md * 2}px) / 3)`,
+              },
+              textAlign: 'center',
+              mb: { xs: 2, md: 4 },
+            }}
           >
             <img
               src={`/images/${d.file}`}

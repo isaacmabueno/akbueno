@@ -31,7 +31,7 @@ const paintings = [
   { file: 'homan-final-real-size.jpg', title: 'Homan', year: '2021', medium: 'Acrylic on Canvas', size: '48×60' },
 ]
 
-const gap = 40
+const gap = { xs: 16, sm: 24, md: 40 }
 
 export default function Painting() {
   return (
@@ -56,11 +56,25 @@ export default function Painting() {
         </Typography>
       </Box>
 
-      <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: `${gap}px` }}>
+      <Box
+        sx={{
+          display: 'flex',
+          flexWrap: 'wrap',
+          gap: { xs: `${gap.xs}px`, sm: `${gap.sm}px`, md: `${gap.md}px` },
+        }}
+      >
         {paintings.map((p) => (
           <Box
             key={p.file}
-            sx={{ width: `calc((100% - ${gap * 2}px) / 3)`, textAlign: 'center', mb: { xs: 2, md: 4 } }}
+            sx={{
+              width: {
+                xs: '100%',
+                sm: `calc((100% - ${gap.sm}px) / 2)`,
+                md: `calc((100% - ${gap.md * 2}px) / 3)`,
+              },
+              textAlign: 'center',
+              mb: { xs: 2, md: 4 },
+            }}
           >
             <img
               src={`/images/${p.file}`}

@@ -50,7 +50,7 @@ export default function About(){
         </Box>
 
         <Box sx={{ flex: 1 }}>
-          <Card sx={{ p: 6, lineHeight: 1.8, textAlign: 'left' }}>
+          <Card sx={{ p: { xs: 2.5, sm: 4, md: 6 }, lineHeight: 1.8, textAlign: 'left' }}>
             <span><strong>AK Bueno</strong> is a visual artist currently based in Grand Rapids, MI.
             Her work depicts heavily abstracted architectural spaces and deconstructed landscapes.
             A lover of all things specific, Bueno uses color, directional line, and mark-making

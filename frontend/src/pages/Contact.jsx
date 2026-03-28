@@ -1,5 +1,5 @@
 import React from 'react'
-import { Typography, Box, Button, Link } from '@mui/material'
+import { Typography, Box, Button } from '@mui/material'
 
 const EMAIL = 'akbueno330@gmail.com'
 const MAILTO = `mailto:${EMAIL}?subject=${encodeURIComponent('Website Inquiry')}`
