@@ -97,7 +97,7 @@ export default function Home() {
           position: 'relative',
           marginLeft: 'calc(50% - 50vw)',
           marginRight: 'calc(50% - 50vw)',
-          minHeight: { xs: 420, md: 560 },
+          minHeight: { xs: '100vh', md: 560 },
           backgroundImage: `url('/images/Ada-1-painting-BANNER.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
@@ -108,7 +108,7 @@ export default function Home() {
       >
         <Box sx={{ position: 'absolute', inset: 0, background: 'rgba(255,255,255,0.45)', pointerEvents: 'none' }} />
         <Box sx={{ width: '100%', maxWidth: 1100, mx: 'auto', px: 2, textAlign: 'center', color: '#111', position: 'relative' }}>
-          <Typography variant="h1" sx={{ fontSize: { xs: 40, md: 96 }, fontFamily: 'Prata, Georgia, serif', color: '#111' }}>
+          <Typography variant="h1" sx={{ fontSize: { xs: 52, md: 96 }, fontFamily: 'Prata, Georgia, serif', color: '#111' }}>
             A.K.BUENO
           </Typography>
           <Typography variant="subtitle1" sx={{ letterSpacing: 4, mt: 1, color: '#000' }}>VISUAL ARTIST</Typography>
