@@ -106,7 +106,7 @@ export default function Home() {
           alignItems: 'center',
         }}
       >
-        <Box sx={{ position: 'absolute', inset: 0, background: 'rgba(255,255,255,0.45)', pointerEvents: 'none' }} />
+        <Box sx={{ position: 'absolute', inset: 0, background: 'rgba(255,255,255,0.55)', pointerEvents: 'none' }} />
         <Box sx={{ width: '100%', maxWidth: 1100, mx: 'auto', px: 2, textAlign: 'center', color: '#111', position: 'relative' }}>
           <Typography variant="h1" sx={{ fontSize: { xs: 52, md: 96 }, fontFamily: 'Prata, Georgia, serif', color: '#111' }}>
             A.K.BUENO
