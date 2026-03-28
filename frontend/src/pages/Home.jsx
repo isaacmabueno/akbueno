@@ -97,7 +97,7 @@ export default function Home() {
           position: 'relative',
           marginLeft: 'calc(50% - 50vw)',
           marginRight: 'calc(50% - 50vw)',
-          minHeight: { xs: '100vh', md: 560 },
+          minHeight: { xs: '90vh', md: 560 },
           backgroundImage: `url('/images/Ada-1-painting-BANNER.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
