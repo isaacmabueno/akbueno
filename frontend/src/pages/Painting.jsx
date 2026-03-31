@@ -11,7 +11,7 @@ const paintings = [
   { file: 'daeco-1.jpg', title: 'Daeco 1', year: '2024', medium: 'Acrylic on Canvas', size: '52×40' },
   { file: 'daeco-2.jpg', title: 'Daeco 2', year: '2024', medium: 'Acrylic on Canvas', size: '36×48' },
   { file: 'kelley.jpg', title: 'Kelley', year: '2024', medium: 'Acrylic on Canvas', size: '30×36' },
-  { file: 'GR-Ford-Mural-Excerpt.jpg', title: 'Excerpt from Gerald R Ford Airport', year: '2024', medium: 'Acrylic on Canvas', size: '45ftx4ft' },
+  { file: 'GR-Ford-Mural-Excerpt.jpg', title: 'Excerpt from Gerald R Ford Airport', year: '2024', medium: 'Mural', size: '45ftx4ft' },
   { file: 'Lindsay-Hall.jpg', title: 'Lindsay Hall', year: '2023', medium: 'Acrylic on Canvas', size: '30×40' },
   { file: 'Art-Institute.jpg', title: 'Art Institute', year: '2023', medium: 'Acrylic on Canvas', size: '20×30' },
   { file: 'ada-1.jpg', title: 'Ada 1', year: '2025', medium: 'Acrylic on Canvas', size: '36×48' },
